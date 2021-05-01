@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
   margin: 30px 0px;
 }
 
-input {
+.input {
   width: 100%;
   font-weight: 600;
   color: #282c34;

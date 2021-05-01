@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import { GifExpertApp } from './GifExpertApp';
 
+import 'animate.css'
 import './index.css';
 
 ReactDOM.render(

@@ -9,7 +9,7 @@ export const GifExpertApp = () => {
     return (
         <main>
             <header>
-                <h1 className="title">GifExpert</h1>
+                <h1 className="title animate__animated animate__flash">GifExpert</h1>
                 <AddCategory setCategories={setCategoties} />
             </header>
             <section>

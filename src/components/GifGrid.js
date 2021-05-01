@@ -7,11 +7,11 @@ export const GifGrid = ({ category }) => {
 
     return (
         <>
-            <p className="category_content">
+            <p className="category_content animate__animated animate__heartBeat">
                 <span className="category_title">{category}</span>
             </p>
 
-            { loading && <p className="loading">loading</p>}
+            { loading && <p className="loading animate__animated animate__flash">loading</p>}
 
             <div className="panel">
                 {
