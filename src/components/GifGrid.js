@@ -7,8 +7,12 @@ export const GifGrid = ({ category }) => {
 
     return (
         <>
-            <h2>{category}</h2>
-            { loading && <p>Loading</p>}
+            <p className="category_content">
+                <span className="category_title">{category}</span>
+            </p>
+
+            { loading && <p className="loading">loading</p>}
+
             <div className="panel">
                 {
                     images.map(img => (
