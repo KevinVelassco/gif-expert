@@ -4,15 +4,14 @@ import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
 
-    const [categories, setCategoties] = useState(['Black Clover']);
+    const [categories, setCategoties] = useState(['anime']);
 
     return (
         <main>
             <header>
-                <h1>GifExpertApp</h1>
+                <h1 className="title">GifExpert</h1>
                 <AddCategory setCategories={setCategoties} />
             </header>
-            <hr />
             <section>
                 {
                     categories.map(category => (
