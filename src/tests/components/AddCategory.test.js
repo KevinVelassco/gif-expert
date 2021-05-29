@@ -1,7 +1,8 @@
+import React from 'react';
 import { shallow } from "enzyme";
 import { AddCategory } from "../../components/AddCategory";
 
-describe('Test componet <AddCategory />', () => {
+describe('Test component <AddCategory />', () => {
 
     const setCategories = jest.fn();
     let wrapper;

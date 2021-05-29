@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test component <GifGrid /> Debe mostrar el componente correctamente 1`] = `
+<Fragment>
+  <p
+    className="category_content animate__animated animate__heartBeat"
+  >
+    <span
+      className="category_title"
+    >
+      anime
+    </span>
+  </p>
+  <p
+    className="loading animate__animated animate__flash"
+  >
+    loading
+  </p>
+  <div
+    className="panel"
+  />
+</Fragment>
+`;
+
+exports[`Test component <GifGrid /> Debe mostrar items cuando se cargan las imágenes con useFetchGifs 1`] = `
+<Fragment>
+  <p
+    className="category_content animate__animated animate__heartBeat"
+  >
+    <span
+      className="category_title"
+    >
+      anime
+    </span>
+  </p>
+  <div
+    className="panel"
+  >
+    <GifGridItem
+      id="sd312desad1"
+      key="sd312desad1"
+      title="cualquier cosa"
+      url="https://localhost/cualquier/cosa.jpg"
+    />
+  </div>
+</Fragment>
+`;
