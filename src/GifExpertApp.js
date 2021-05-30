@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
+
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({ defaultCategories }) => {
 
-    const [categories, setCategoties] = useState(['anime']);
+    const [categories, setCategoties] = useState(defaultCategories);
 
     return (
         <main>
@@ -21,4 +23,12 @@ export const GifExpertApp = () => {
             </section>
         </main>
     );
+}
+
+GifExpertApp.propTypes = {
+    defaultCategories: PropTypes.array
+}
+
+GifExpertApp.defaultProps = {
+    defaultCategories: ['anime']
 }

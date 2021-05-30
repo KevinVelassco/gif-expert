@@ -12,16 +12,3 @@ exports[`Test component <AddCategory /> Debe mostrar el componente correctamente
   />
 </form>
 `;
-
-exports[`Test componet <AddCategory /> Debe mostrar el componente correctamente 1`] = `
-<form
-  onSubmit={[Function]}
->
-  <input
-    className="input animate__animated animate__flash"
-    onChange={[Function]}
-    type="text"
-    value=""
-  />
-</form>
-`;

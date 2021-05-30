@@ -15,19 +15,3 @@ exports[`Test component <GifGridItem /> Debe mostrar el componente correctamente
   </div>
 </div>
 `;
-
-exports[`Test componet <GifGridItem /> Debe mostrar el componente correctamente 1`] = `
-<div
-  className="card  animate__animated animate__flip"
->
-  <div
-    className="card__imgContainer"
-  >
-    <img
-      alt="title imagen"
-      className="card__img"
-      src="https://imagen.png"
-    />
-  </div>
-</div>
-`;
